@@ -1,4 +1,2 @@
 # ulam
-choice a angle and than the turtle draws ulam in random colors
-I used the turtle module for this small code snippet which creates a ulam 
-with random colors the shape specified by the angle you give in the Terminal.
+choice the angle,the length,the duration and the colors of the turtle in your terminal and then see what what you made:)
