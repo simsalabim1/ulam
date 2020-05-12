@@ -1,6 +1,7 @@
 
-user=int(input("what angle?"))
-num=int(input("how long?"))
+
+user=int(input("what angle of turning in your spiral?"))
+num=int(input("how many times should it run?"))
 len=int(input('what is the starter length'))
 
 type=input("please write 1, 2, 3or 4 for a blue,green,red or rainbow tyme")
@@ -11,7 +12,7 @@ elif type== '2':
 elif type== '3':
     colors = ["red", "maroon", "indianred", "salmon", "firebrick","chocolate"]
 elif type=='4':
-    colors = ["red", "fuchsia", "cyan", "orange", "yellow","skyblue"]
+    colors = ["lightpink", "indigo", "cyan", "aquamarine", "palegreen","crimson","gold","darkorange","pink","green","purple"]
 import random
 import turtle
 t = turtle.Turtle()
