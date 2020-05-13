@@ -1,4 +1,6 @@
 
+
+
 user=int(input("what angle of turning in your spiral?"))
 num=int(input("how many times should it run?"))
 len=int(input('what is the starter length'))
@@ -15,6 +17,7 @@ elif type=='4':
 import random
 import turtle
 t = turtle.Turtle()
+w=turtle.Screen()
 turtle.bgcolor('black')
 t.speed(0)
 t.width(2.5)
@@ -27,5 +30,5 @@ for i in range(0,num):
     t.forward(len)
     t.right(user)
     len = len + 5
-turtle.getscreen()._root.mainloop()
+w.exitonclick()
 
