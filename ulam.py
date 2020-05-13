@@ -1,5 +1,4 @@
 
-
 user=int(input("what angle of turning in your spiral?"))
 num=int(input("how many times should it run?"))
 len=int(input('what is the starter length'))
@@ -12,10 +11,11 @@ elif type== '2':
 elif type== '3':
     colors = ["red", "maroon", "indianred", "salmon", "firebrick","chocolate"]
 elif type=='4':
-    colors = ["lightpink", "indigo", "cyan", "aquamarine", "palegreen","crimson","gold","darkorange","pink","green","purple"]
+    colors = ['red','purple', 'blue', 'green', 'yellow','orange']
 import random
 import turtle
 t = turtle.Turtle()
+turtle.bgcolor('black')
 t.speed(0)
 t.width(2.5)
 
@@ -28,3 +28,4 @@ for i in range(0,num):
     t.right(user)
     len = len + 5
 turtle.getscreen()._root.mainloop()
+
